@@ -582,24 +582,3 @@ function sortData() {
   }
   displayData();
 }
-
-/*
-
-
-1. Disable updation or deletion if you are editing the record
-2. The dropdown should be consistent with each other. Changing any of the dropdowns, should reflect to another one as well.
-3. Instead of showing DOB, show the age (It should be derived from the DOB of the user). For eg, if user enters the DOB as 01/01/2001 then you just need to show the age of the user which is 22.
-4. Add two more columns, created_at and updated_at. 
-The created_at column should contains the datetime which tells that at what time the record was created. 
-And the updated_at column should tell us that at what time the record was updated
-5. Add validation in DOB that user can't select the future date.
-
-
-Do you have any doubts in any of the mentioned point?
-
-No , sir.
-
-Ok 
-then please start fixing them. I am disconnecting the screen.
-
-*/
